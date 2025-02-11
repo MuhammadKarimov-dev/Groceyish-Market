@@ -1,0 +1,219 @@
+i{
+    color: #253D4E !important;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 17px;
+}
+
+.Nav-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0 5%;
+}
+.top_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;
+}
+.nav_profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav_profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.nav_profile span{
+    /* Ramzi Cherif */
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+
+/* Black */
+color: #253D4E;
+
+
+/* Inside auto layout */
+
+
+}
+.nav_action{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+
+}
+.watchlist{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+.watchlist span{
+    /* Wishlist */
+
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cart p{
+    /* My cart */
+
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+/* Black */
+color: #253D4E;
+
+
+/* Inside auto layout */
+
+
+}
+.cart span{
+    /* $21 */
+
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+/* BaseGreen */
+color: #3BB77E;
+
+
+
+
+}
+.input_search{
+    display: flex;
+    align-items: center;
+    background-color: #ADADAD;
+
+    /* Search */
+
+/* Auto layout */
+
+
+
+
+background: #F3F3F3;
+border-radius: 2px;
+
+
+
+}
+
+.input_search .input{
+    padding: 12px;
+}
+.input select{
+    background-color: transparent;
+    border: none;
+
+    /* All Categories */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+
+
+/* Black */
+color: #253D4E;
+outline: none;
+
+
+}
+.input input{
+    border: none ;
+    background-color: transparent;
+    outline: none;
+
+    /* Search for items... */
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+/* Grey */
+color: #ADADAD;
+
+padding-left: 5px;
+
+
+}
+.input_search button{
+
+/* Search-btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px;
+gap: 9px;
+
+margin: 0 auto;
+
+
+/* BaseGreen */
+background: #3BB77E;
+border-radius: 0px 2px 2px 0px;
+
+border: none;
+outline: none;
+
+}
+.input_search button i{
+    color: white !important;
+    font-size: 24px;
+}
